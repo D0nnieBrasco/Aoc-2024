@@ -87,7 +87,7 @@ def analyze(i, pack, point):
     right_sides = len(right) - right_pairs
     pack[point].append(up_sides + down_sides + left_sides + right_sides)
 
-with open('text12_24.txt') as file:
+with open('text12.txt') as file:
     mapp = [l[:-1] for l in file]
 
 cords = []
